@@ -1,5 +1,5 @@
-export const USDC = "0xcebA9300f2b948710d2653dD7B07f33A8B32118C";
-export const USDT = "0x617f3112bf5397D0467D315cC709EF968D9ba546";
+export const USDC = "0x4237aD5a35B4640BE503d2371155afd7B79CaEb6";
+export const USDT = "0x227e8688f1fc0C6C2f7606bC6690fe2C00a847a1";
 
 export const TOKENS = [
   { symbol: "USDC", address: USDC },
