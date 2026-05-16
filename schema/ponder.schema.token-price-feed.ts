@@ -11,7 +11,7 @@ export const tokenPriceFeedSnapshot = onchainTable(
     tokenAddress: t.hex().notNull(),
     tokenSymbol: t.text().notNull(),
     price: t.bigint().notNull(),
-    decimals: t.bigint().notNull(),
+    priceDecimals: t.bigint().notNull(),
   }),
   (table) => ({
     tokenIdx: index().on(table.tokenAddress),

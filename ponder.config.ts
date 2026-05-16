@@ -13,15 +13,15 @@ export default createConfig({
     JointVentures: {
       chain: "celo",
       abi: JointVenturesAbi,
-      address: "0x801adC397899f7420F9ddFdA9f048C676A548B94",
-      startBlock: 67041113,
+      address: "0xE981Bb5e5F9b441A373881C8FE9F6db1322aDb95",
+      startBlock: 67046133,
     },
   },
   blocks: {
     TokenPriceFeed: {
       chain: "celo",
       interval: 120,
-      startBlock: 67041113,
+      startBlock: 67046133,
     },
   },
 });
