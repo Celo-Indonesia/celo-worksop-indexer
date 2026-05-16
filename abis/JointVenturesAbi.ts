@@ -1,4 +1,4 @@
-export const JoinVenturesAbi = [
+export const JointVenturesAbi = [
   {
     inputs: [
       { internalType: "address", name: "_tokenShares", type: "address" },
