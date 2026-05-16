@@ -12,7 +12,7 @@ yarn-error.log*
 
 # Env files
 .env*.local
-
+artifacts/
 # Ponder
 /generated/
 /.ponder/

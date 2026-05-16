@@ -3,6 +3,10 @@ import { createConfig } from "ponder";
 import { JointVenturesAbi } from "./abis/JointVenturesAbi";
 
 export default createConfig({
+  database: {
+    kind: "postgres",
+    connectionString: process.env.DATABASE_URL,
+  },
   chains: {
     celo: {
       id: 42220,
